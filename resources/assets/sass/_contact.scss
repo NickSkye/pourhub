@@ -1,0 +1,28 @@
+
+#contactform{
+
+  transition: 1s transform ease-in-out;
+
+  transform: translateX(200%);
+  width: 100%;
+
+
+  z-index: 1004;
+
+  &.activated{
+    transform: translateX(0%);
+  }
+}
+
+.pull-out-container-contact{
+  z-index: 300;
+  //background-color: black;
+margin-top: 5%;
+  height: 800px !important;
+  position: absolute;
+
+  p, ul{
+    color: white;
+
+  }
+}

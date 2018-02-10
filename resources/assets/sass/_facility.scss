@@ -1,0 +1,66 @@
+.facility {
+    padding: 20px 0;
+    .container-fluid {
+        position: relative;
+        img {
+            width: 75%;
+            margin: 0 auto;
+            display: block;
+        }
+        .content {
+            h2 {
+                text-align: center;
+                font-family: "Times New Roman", serif;
+                color: #C47752;
+            }
+            p {
+                padding: 20px 0;
+                max-width: 400px;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    }
+    .trained__therapists {
+        max-width: 645px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 150px;
+        h2 {
+            text-align: center;
+            font-family: "Times New Roman", serif;
+            color: #C47752;
+            margin-bottom: 40px;
+        }
+        p:nth-child(3) {
+            text-align: center;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .facility {
+        .container-fluid .image {
+            padding: 0;
+        }
+        .facility .container-fluid .content {
+            padding-top: 6%l
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .facility .container-fluid .image {
+        position: relative;
+        right: -11px;
+    }
+}
+
+@media (min-width: 992px) {
+    .facility .container-fluid .content {
+        margin-top: 7%;
+    }
+     .facility .container-fluid img {
+        width: 95%;
+     }
+}

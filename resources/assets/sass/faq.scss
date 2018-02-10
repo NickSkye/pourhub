@@ -1,0 +1,154 @@
+section.faq {
+    &.crystals {
+        .about__block--container {
+            &:nth-child(odd) {
+                .about__block {
+                    h2 {
+                        text-align: center;
+                    }
+                    .image {
+                        width: 75%;
+                        img {
+                            max-width: none;
+                            width: 100%;
+                            @media (min-width: 991px) {
+                                max-width: 85%;
+                                position: relative;
+                                top: -60px;
+                            }
+                        }
+                        @media (max-width: 991px) {
+                            position: relative;
+                            top: 25px;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+            &:nth-child(3) {
+                background-color: #F8EFEB;
+                .about__block h2,
+                .about__block p {
+                    text-align: right;
+                }
+            }
+            @media (min-width: 992px) {
+                &:nth-child(3) {
+                    .about__block {
+                        flex-direction: column;
+                        .content__block {
+                            right: 0;
+                            left: auto;
+                            margin-top: 100px;
+                        }
+                        .image img {
+                            float: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .banner {
+            font-size: 20px;
+            padding: 30px;
+            background-color: #C47752;
+            text-align: center;
+            color: #fff;
+        }
+    }
+    &.rejuvenation {
+        .about__block {
+            &:nth-child(even) {
+                background-color: #F8EFEB;
+            }
+            .container {
+                position: relative;
+            }
+            .image img {
+                max-width: none;
+                width: 100%;
+            }
+        }
+        @media (min-width: 992px) {
+            .about__block:nth-child(1) .image {
+                width: 75%;
+                position: relative;
+                left: 50px;
+                top: -70px;
+            }
+            .about__block:nth-child(even) .image {
+                float: left;
+                width: 650px;
+            }
+            .about__block .image {
+                float: right;
+                width: 650px;
+            }
+        }
+    }
+    .container-fluid {
+        padding: 0;
+    }
+    .about__block--container {
+        padding: 25px 0;
+        &:nth-child(even) {
+            background-color: #F8EFEB;
+        }
+    }
+    .about__block {
+        padding: 25px 0;
+        text-align: center;
+        margin: 0 auto !important;
+        h2 {
+            font-family: "Times New Roman", serif;
+            font-size: 35px;
+            color: #C47752;
+        }
+        .image img {
+            max-width: 75%;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    section.faq .about__block--container {
+        flex-direction: row-reverse;
+    }
+    section.faq .about__block {
+        display: flex;
+        margin-left: -15px;
+        margin-right: -15px;
+        flex-direction: row;
+        position: relative;
+        .content__block {
+            padding: 20px 50px;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            width: 100%;
+            float: left;
+        }
+        .image img {
+            width: 550px;
+            display: inline-block;
+        }
+        &:nth-child(even) {
+            text-align: right;
+            .image img {
+                float: left;
+            }
+        }
+        &:nth-child(odd) {
+            text-align: left;
+            flex-direction: row-reverse;
+            .image img {
+                float: right;
+            }
+            .content__block {
+                left: 0;
+            }
+        }
+    }
+}

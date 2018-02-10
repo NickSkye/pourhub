@@ -1,0 +1,20 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+@import "global";
+@import "header";
+@import "facility";
+@import "home";
+@import "employee";
+@import "projects";
+@import "contact";
+
+@import "faq";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+//Aos
+@import "~aos/dist/aos.css";

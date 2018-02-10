@@ -1,0 +1,192 @@
+header {
+  height: 80px;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  //box-shadow: 5px 10px 8px 10px #888888;
+  a.brand {
+
+    img {
+      width: 240px;
+      //margin-top: -20px;
+
+    }
+  }
+  .menu__toggle {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 20px;
+    width: 40px;
+    cursor: pointer;
+    span {
+      height: 1px;
+      width: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      cursor: pointer;
+      background: #ffffff;
+      &.middle {
+        top: 8px;
+      }
+      &.bottom {
+        top: 16px;
+      }
+    }
+  }
+}
+
+.mobile__menu {
+  position: fixed;
+  background: $color-top-level;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity .5s, visibility .5s, height .5s;
+  -o-transition: opacity .5s, visibility .5s, height .5s;
+  transition: opacity .5s, visibility .5s, height .5s;
+  z-index: 100;
+  overflow: hidden;
+  &.show__menu {
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+    z-index: 9999;
+  }
+  .close {
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    opacity: 1;
+    z-index: 1;
+    span {
+      width: 100%;
+      display: block;
+      margin: 7.5px 0;
+      height: 1px;
+      background: #ffffff;
+      &.top {
+        transform: translateY(10px) translateX(0) rotate(45deg);
+        -webkit-transform: translateY(10px) translateX(0) rotate(45deg);
+        -o-transform: translateY(10px) translateX(0) rotate(45deg);
+      }
+      &.bottom {
+        transform: translateY(2px) translateX(0) rotate(-45deg);
+        -webkit-transform: translateY(2px) translateX(0) rotate(-45deg);
+        -o-transform: translateY(2px) translateX(0) rotate(-45deg);
+      }
+    }
+  }
+  img {
+    width: 240px;
+    // margin-top: -20px;
+    position: relative;
+    left: 15px;
+  }
+  ul {
+    padding-left: 0;
+    li {
+      list-style-type: none;
+      text-align: center;
+      margin: 15px 0;
+      a {
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+  }
+}
+
+.desktop__navigation {
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  left: 35%;
+  display: none;
+  nav {
+    width: 750px;
+    display: block;
+    margin: 0 auto;
+    ul {
+      padding-left: 0;
+      display: inline;
+      li {
+        list-style-type: none;
+        display: inline;
+        margin: 10px;
+        a {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14pt;
+          color: #fff;
+          padding-bottom: 5px;
+          position: relative;
+          &:hover {
+            text-decoration: none;
+          }
+          &:hover:after {
+            opacity: 1;
+            -webkit-transform: translateY(0px);
+            -o-transform: translateY(0px);
+            transform: translateY(0px);
+          }
+          &:after {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            width: 70%;
+            margin: 0 auto;
+            height: 2px;
+            background: #fff;
+            content: "\A0";
+            opacity: 0;
+            -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+            transition: opacity 0.3s, -webkit-transform 0.3s;
+            -o-transition: opacity 0.3s, -o-transform 0.3s;
+            transition: opacity 0.3s, transform 0.3s;
+            transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s, -o-transform 0.3s;
+            -webkit-transform: translateY(10px);
+            -o-transform: translateY(10px);
+            transform: translateY(10px);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1020px) {
+  .desktop__navigation {
+    display: block;
+  }
+  header {
+    //margin-bottom: 50px;
+  }
+  header .menu__toggle {
+    display: none;
+  }
+}
+
+//@media (min-width: 992px) {
+//    header{
+//        height: 100px;
+//    }
+//    header a.brand img {
+//        width: 350px;
+//        //margin-top: -30px;
+//    }
+//    .desktop__navigation {
+//        right: 20px;
+//    }
+//}
