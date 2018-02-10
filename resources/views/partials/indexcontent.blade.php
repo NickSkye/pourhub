@@ -640,8 +640,14 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
     <div class="bubble x9"></div>
     <div class="bubble x10"></div>
     <div id="contactform" class="container pull-out-container-contact">
+
         <div class="col-sm-6 col-sm-offset-3">
-            <h2>Contact Us Today!</h2>
+            <div class="row">
+                <h2>Contact Us Today!</h2>
+                <i class="fa fa-times fa-2x" id="contact-close" style="position: absolute; top: 5%; right: 5%;"
+                   aria-hidden="true"></i>
+            </div>
+
             <form action="contact/submit" class="contact-form" method="post">
                 {{ csrf_field() }}
                 <div class="form-group">

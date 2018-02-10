@@ -69,7 +69,7 @@ $(document).ready(function () {
 
     });
 
-    $( "#contactform" ).click(function() {
+    $( "#contact-close" ).click(function() {
         $('.pull-out-container').removeClass('activated');
         $('.image').removeClass('activated');
         $('#contactform').removeClass('activated');
