@@ -69,7 +69,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 <div class="parallax paraone">
     <div class="row text-center ">
         <div class="col-xs-12 top-margin-50" data-aos="fade-up" data-aos-duration="1500">
-            <h2 class="title-load animated">
+            <h2 class="title-load animated" id="services">
                 OUR<br>SERVICES
             </h2>
 
@@ -78,7 +78,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 </div>
 <div class="row crystals">
     <div class="col-sm-12">
-        <div class="about__block--container shadowdiv" id="services">
+        <div class="about__block--container shadowdiv" >
             <div class="about__block black-on-white container-fluid">
                 <div class="content__block col-sm-4" data-aos="fade-up" data-aos-delay="300">
 
@@ -419,7 +419,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 <div class="parallax parathree">
     <div class="row text-center " style="position: absolute;">
         <div class="col-xs-12 top-margin-100" data-aos="fade-up" data-aos-duration="1500">
-            <h2 class="title-load animated">
+            <h2 class="title-load animated" id="skills">
                 OUR<br>SKILLS
             </h2>
 
@@ -427,7 +427,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
     </div>
 
 </div>
-<div class="project-section row crystals black-on-white">
+<div class="project-section row crystals black-on-white"  >
     <div class="col-xs-12">
 
         <div id="myCarousel" class="carousel slide" data-ride="carousel">

@@ -122,6 +122,20 @@ $(document).ready(function() {
         $('.mobile__menu').removeClass('show__menu');
     });
 
+
+    $('.mobile__nav--container ul li').on('click', function() {
+        $('.mobile__menu').removeClass('show__menu');
+        var param = document.location.pathname;
+        if(window.location.href.indexOf("#") > -1){
+
+
+        }
+        $('html, body').animate({
+            scrollTop: $(param.substr(1)).offset().top - 150
+        }, 1000);
+    });
+
+
 });
 
 

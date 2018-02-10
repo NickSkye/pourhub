@@ -20,7 +20,7 @@
 				<li><a href="/">Home</a></li>
     			<li><a href="#services">Our Services</a></li>
     			<li><a href="#team">Our Team</a></li>
-				<li><a href="#projects">Our Projects</a></li>
+				<li><a href="#skills">Our Skills</a></li>
     			{{--<li><a href="/about-rejuvenation">About Rejuvenation Wellness</a></li>--}}
 				{{--<li><a href="/faq">FAQ</a></li>--}}
     			<li><a href="#contact">Contact</a></li>
@@ -34,7 +34,7 @@
 			<li><a href="/">Home</a></li>
 			<li><a href="#services">Our Services</a></li>
 			<li><a href="#team">Our Team</a></li>
-			<li><a href="#projects">Our Projects</a></li>
+			<li><a href="#skills">Our Skills</a></li>
 			{{--<li><a href="/about-rejuvenation">About Rejuvenation Wellness</a></li>--}}
 			{{--<li><a href="/faq">FAQ</a></li>--}}
 			<li><a href="#contact">Contact</a></li>
