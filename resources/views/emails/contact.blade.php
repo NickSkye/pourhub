@@ -11,9 +11,10 @@
         <h3>You Have A New Contact</h3>
         <div class="text-center">
 
-            <div><h2>Name: </h2>{{$firstname}} {{$lastname}}</div>
-            <div><h2>Phone: </h2>{{$phone}}</div>
+            <div><h2>Name: </h2>{{$name}}</div>
+
             <div><h2>Email: </h2>{{$email}}</div>
+            <div><h2>Message: </h2>{{$messbody}}</div>
 
         </div>
 

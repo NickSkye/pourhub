@@ -629,16 +629,16 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 </div>
 <div class="parallax parafive " >
 
-    <div class="bubble x1"></div>
-    <div class="bubble x2"></div>
-    <div class="bubble x3"></div>
-    <div class="bubble x4"></div>
-    <div class="bubble x5"></div>
-    <div class="bubble x6"></div>
-    <div class="bubble x7"></div>
-    <div class="bubble x8"></div>
-    <div class="bubble x9"></div>
-    <div class="bubble x10"></div>
+    {{--<div class="bubble x1"></div>--}}
+    {{--<div class="bubble x2"></div>--}}
+    {{--<div class="bubble x3"></div>--}}
+    {{--<div class="bubble x4"></div>--}}
+    {{--<div class="bubble x5"></div>--}}
+    {{--<div class="bubble x6"></div>--}}
+    {{--<div class="bubble x7"></div>--}}
+    {{--<div class="bubble x8"></div>--}}
+    {{--<div class="bubble x9"></div>--}}
+    {{--<div class="bubble x10"></div>--}}
     <div id="contactform" class="container pull-out-container-contact">
 
         <div class="col-sm-6 col-sm-offset-3">
@@ -648,7 +648,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
                    aria-hidden="true"></i>
             </div>
 
-            <form action="contact/submit" class="contact-form" method="post">
+            <form action="/sendemail" class="contact-form" method="post">
                 {{ csrf_field() }}
                 <div class="form-group">
 
@@ -662,7 +662,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 
                 <div class="form-group">
 
-                    <textarea class="form-control" id="message" name="messbody" placeholder="Message"
+                    <textarea class="form-control" id="messbody" name="messbody" placeholder="Message"
                               rows="4"></textarea>
                 </div>
 
