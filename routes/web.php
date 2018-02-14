@@ -12,10 +12,6 @@
 */
 
 Route::get('/', 'PagesController@showHome');
-Route::get('/about-crystal', 'PagesController@showAboutCrystal');
-Route::get('/about-rejuvenation', 'PagesController@showAboutRejuvenation');
-Route::get('/facility', 'PagesController@showFacility');
-Route::get('/faq', 'PagesController@showFaq');
 Route::get('/contact', 'PagesController@showContact');
 Route::Post('/sendemail', 'PagesController@contactform');
 
