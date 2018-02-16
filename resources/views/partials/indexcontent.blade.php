@@ -236,7 +236,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
                                 exciting websites.</p>
                         </div>
                         <div class="col-xs-4">
-                            <img src="/images/nick.jpg" class="employee-photo-sm">
+                            <img src="/images/nickingenuity.jpg" class="employee-photo-sm">
                         </div>
                         <div class="col-xs-4">
                             <h2>Skills</h2>
@@ -351,7 +351,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 
                 {{--NICK--}}
                 <div class="image no-padding-right" data-aos="fade-up" data-aos-delay="300">
-                    <img src="/images/nick.jpg" class="employee-photo-mobile" alt="" data-aos-delay="200"
+                    <img src="/images/nickingenuity.jpg" class="employee-photo-mobile" alt="" data-aos-delay="200"
                          data-aos-easing="ease-in-sine">
                 </div>
                 <div class="employee-info" data-aos="fade-up" data-aos-delay="300">
