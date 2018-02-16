@@ -160,7 +160,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
                          data-aos-easing="ease-in-sine">
                 </div>
                 <div class="image col-sm-4 no-padding-right" id="emptwobutton" data-aos="fade-up" data-aos-delay="300">
-                    <img src="/images/nick.jpg" class="employee-photo" alt="" data-aos-delay="200"
+                    <img src="/images/nickingenuity.jpg" class="employee-photo" alt="" data-aos-delay="200"
                          data-aos-easing="ease-in-sine">
                 </div>
                 <div class="image col-sm-4 no-padding-right" id="empthreebutton" data-aos="slide-left" data-aos-delay="300">
