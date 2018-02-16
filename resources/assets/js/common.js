@@ -97,23 +97,20 @@ $(window).bind('scroll', function () {
 });
 
 
-// $(function(){
-//
-//     // document.getElementById("demo").innerHTML = "Read Less";
-//     var param = document.location.pathname;
-//     if(window.location.href.indexOf("#") > -1){
-//
-//
-//     }
-//     $('html, body').animate({
-//         scrollTop: $(document.location.pathname.substr(1)).offset().top - 490
-//     }, 4000);
-//     return false;
-// });
+$(function(){
 
-$('html, body').animate({
-    scrollTop: $(document.location.pathname.substr(1)).offset().top - 490
-}, 4000);
+    // document.getElementById("demo").innerHTML = "Read Less";
+    var param = document.location.pathname;
+    if(window.location.href.indexOf("#") > -1){
+
+
+    }
+    $('html, body').animate({
+        scrollTop: $(param.substr(1)).offset().top - 490
+    }, 4000);
+    return false;
+});
+
 
 $(document).ready(function() {
     $('header .menu__toggle').on('click', function() {
