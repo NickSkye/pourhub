@@ -1533,7 +1533,6 @@ header .menu__toggle span.bottom {
   z-index: 300;
   margin-top: 5%;
   height: 800px !important;
-  position: absolute;
 }
 
 .pull-out-container-contact p,

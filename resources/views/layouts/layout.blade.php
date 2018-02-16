@@ -32,11 +32,12 @@
     @if(Request::is('/'))
         {{--DO SOMETHING--}}
     @endif
-    @include('partials.home-header')
+
     <body >
-        {{--@include('partials.logincart')--}}
+    @include('partials.home-header')
         @yield('content')
+        <footer> @include('partials.footer')</footer>
     </body>
-    <footer > @include('partials.footer')</footer>
+
 
 </html>
