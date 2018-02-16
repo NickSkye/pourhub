@@ -31941,7 +31941,7 @@ $(function () {
     if (window.location.href.indexOf("#") > -1) {}
     $('html, body').animate({
         scrollTop: $(param.substr(1)).offset().top - 490
-    }, 1000);
+    }, 4000);
     return false;
 });
 
