@@ -31934,16 +31934,23 @@ $(window).bind('scroll', function () {
     }
 });
 
-$(function () {
+// $(function(){
+//
+//     // document.getElementById("demo").innerHTML = "Read Less";
+//     var param = document.location.pathname;
+//     if(window.location.href.indexOf("#") > -1){
+//
+//
+//     }
+//     $('html, body').animate({
+//         scrollTop: $(document.location.pathname.substr(1)).offset().top - 490
+//     }, 4000);
+//     return false;
+// });
 
-    // document.getElementById("demo").innerHTML = "Read Less";
-    var param = document.location.pathname;
-    if (window.location.href.indexOf("#") > -1) {}
-    $('html, body').animate({
-        scrollTop: $(param.substr(1)).offset().top - 490
-    }, 4000);
-    return false;
-});
+$('html, body').animate({
+    scrollTop: $(document.location.pathname.substr(1)).offset().top - 490
+}, 4000);
 
 $(document).ready(function () {
     $('header .menu__toggle').on('click', function () {
