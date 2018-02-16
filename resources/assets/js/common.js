@@ -130,9 +130,7 @@ $(document).ready(function() {
 
 
         }
-        $('html, body').animate({
-            scrollTop: $(param.substr(1)).offset().top - 150
-        }, 1000);
+        
     });
 
 
