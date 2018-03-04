@@ -1,0 +1,59 @@
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px !important;
+   padding-right: 0px !important;
+}
+
+.container-margin{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.full-width{
+    width: 100%;
+}
+
+
+//for images with text on them. put class on text
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 75px;
+    right: 75px;
+}
+
+.mid-right {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
