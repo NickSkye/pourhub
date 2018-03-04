@@ -1,5 +1,5 @@
 <?php
-$connect = mysql_connect("localhost", "nickskye", "password");
+$connect = mysql_connect("159.89.136.1", "nickskye", "password");
 if(!$connect){
 	die('Not connected: ' . mysql_error());
 }
