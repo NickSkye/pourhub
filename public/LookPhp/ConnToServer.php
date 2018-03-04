@@ -1,5 +1,5 @@
 <?php
-$connect = Doctrine\DBAL\Driver\PDOMySql\("localhost", "nickskye", "password!");
+$connect = Doctrine\DBAL\Driver\PDOMySql("localhost", "nickskye", "password");
 if(!$connect){
 	die('Not connected: ' . mysql_error());
 }
