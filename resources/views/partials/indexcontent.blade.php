@@ -66,7 +66,9 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 
     {{--testend--}}
 </div>
-<div class="parallax paraone">
+{{--<div class="parallax paraone">--}}
+<div>
+    <iframe class="animation" id="iframe-animation" src="http://pixijs.teamgbaws.net/header/" style="display: block;">
     <div class="row text-center ">
         <div class="col-xs-12 top-margin-50" data-aos="fade-up" data-aos-duration="1500">
             <h2 class="title-load animated" id="services">
@@ -75,6 +77,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 
         </div>
     </div>
+    </iframe>
 </div>
 <div class="row crystals">
     <div class="col-sm-12">
