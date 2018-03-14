@@ -1050,6 +1050,12 @@ svg {
   }
 }
 
+.serv-icons {
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 header {
   height: 80px;
   width: 100%;
@@ -1472,6 +1478,8 @@ header .menu__toggle span.bottom {
           transform: translateX(-100%);
   -webkit-transition: 1s all ease-in-out;
   transition: 1s all ease-in-out;
+  border-top: 1px solid black;
+  border-right: 1px solid white;
 }
 
 .founders .founders-left.activated {
@@ -1501,6 +1509,8 @@ header .menu__toggle span.bottom {
           transform: translateX(100%);
   -webkit-transition: 1s all ease-in-out;
   transition: 1s all ease-in-out;
+  border-top: 1px solid black;
+  border-left: 1px solid white;
 }
 
 .founders .founders-right.activated {

@@ -90,12 +90,14 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
                 <div  class="content__block col-sm-4 services-blocks text-center" data-aos="fade-up" data-aos-delay="300">
 
                     <h2><br>Web Development</h2>
+                    <img src="/images/webdev.png" class="serv-icons" alt="">
                     <p>IntelliSkye provides end-to-end PHP development solutions catering to client-centric requirements. It can be used to develop API development, Website development, Custom CMS solution, World class web applications and E-commerce solution. We focuses on providing innovative services that encompasses High Performance, High Efficiency and Cost Effective Development Strategy to meet requirements of its clients.</p>
 
                 </div>
                 <div class="content__block col-sm-4 services-blocks text-center" style="border-left: 1px solid black; border-right: 1px solid black;" data-aos="fade-up" data-aos-delay="100">
 
                     <h2><br>App Development</h2>
+                    <img src="/images/appdev.png" class="serv-icons" alt="">
                     <p>We at IntelliSkye specialize in App and Website development. Working with both Android and iOS,
                         we provide our clients with the most complete apps to cover the largest array of users. We
                         believe communication is the key to any good relationship so we work side by side with you every
@@ -108,6 +110,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
                 <div class="content__block col-sm-4 services-blocks text-center" data-aos="fade-up" data-aos-delay="700">
 
                     <h2><br>SEO/SEM/AdWords</h2>
+                    <img src="/images/seo.png" class="serv-icons" alt="">
                     <p>In today's highly competitive world, it is not enough to have a good website to promote your services. It is very essential that your website appears in the top rankings of major search engines. An SEO friendly website translates to better visibility of the website, thereby bringing in profitable business. Without a search engine optimized site, you may loose out on potential business opportunities. Our SEO experts implement excellent optimization techniques to ensure that your website gets high ranking in all the major search engine result pages, thereby maximizing your ROI.</p>
                     <p><a href="#contact" class="text-center button visible-xs">
                             Learn more about our services&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i>
