@@ -1359,6 +1359,8 @@ header .menu__toggle span.bottom {
   background-color: black;
   min-height: 400px !important;
   position: absolute;
+  -webkit-box-shadow: inset 0px 9px 19px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 9px 19px 0px rgba(0, 0, 0, 0.75);
 }
 
 .pull-out-container-inner p,
