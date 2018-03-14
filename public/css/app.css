@@ -358,6 +358,73 @@ footer:hover {
   text-align: center;
 }
 
+#section05 a span {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+@keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+            transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+            transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+#section05 a {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.padding-lr {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+
 .parallax {
   /* The image used */
   /* Set a specific height */
@@ -379,7 +446,8 @@ footer:hover {
 }
 
 .parallax.paratwo {
-  background-image: url("/images/paralaxsecond.jpg");
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  min-height: 300px;
 }
 
 .parallax.parathree {
@@ -1292,6 +1360,11 @@ header .menu__toggle span.bottom {
   color: white;
 }
 
+.services-blocks {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+
 .colored-back {
   background: -webkit-gradient(linear, left top, left bottom, from(#316980), to(#387d8c)) !important;
   background: linear-gradient(#316980, #387d8c) !important;
@@ -1329,7 +1402,7 @@ header .menu__toggle span.bottom {
   transition: 1s transform ease-in-out, 1s -webkit-transform ease-in-out;
   -webkit-transform: translateX(200%);
           transform: translateX(200%);
-  width: 100%;
+  width: 101%;
   z-index: 1004;
 }
 
@@ -1345,7 +1418,7 @@ header .menu__toggle span.bottom {
   transition: 1s transform ease-in-out, 1s -webkit-transform ease-in-out;
   -webkit-transform: translateX(200%);
           transform: translateX(200%);
-  width: 100%;
+  width: 101%;
   z-index: 1004;
 }
 
@@ -1391,6 +1464,64 @@ header .menu__toggle span.bottom {
   margin-bottom: 45px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.founders .founders-left {
+  padding-right: 0 !important;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
+}
+
+.founders .founders-left.activated {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.founders .founders-left .founder-button-left {
+  max-width: 200px;
+  max-height: 50px;
+  border: 2px solid white;
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  padding: 20px;
+  display: none;
+}
+
+.founders .founders-left:hover .founder-button-left {
+  display: block;
+}
+
+.founders .founders-right {
+  padding-left: 0 !important;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
+}
+
+.founders .founders-right.activated {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.founders .founders-right .founder-button-right {
+  max-width: 200px;
+  max-height: 50px;
+  border: 2px solid white;
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  padding: 20px;
+  display: none;
+}
+
+.founders .founders-right:hover .founder-button-right {
+  display: block;
 }
 
 .projects-image {

@@ -398,6 +398,67 @@ footer:hover {
     text-align: center;
 }
 
+#section05 a span {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+    0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+@keyframes sdb05 {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+#section05 a {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+
+
+
+    box-sizing: border-box;
+}
+
+.padding-lr{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+
 .parallax {
     /* The image used */
 
@@ -410,7 +471,9 @@ footer:hover {
 
     }
     &.paratwo {
-        background-image: url("/images/paralaxsecond.jpg");
+        //background-image: url("/images/paralaxsecond.jpg");
+        background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+        min-height: 300px;
     }
     &.parathree {
         background-image: url("/images/paralaxthird.jpg");

@@ -31887,7 +31887,7 @@ $(document).ready(function () {
         $('.pull-out-container').removeClass('activated');
         $('.image').removeClass('activated');
         $('#empone').removeClass('activated');
-        $('#emponebutton').removeClass('activated');
+        //$('#emponebutton').removeClass('activated');
     });
 
     $("#emptwobutton").click(function () {
@@ -31901,7 +31901,7 @@ $(document).ready(function () {
         $('.pull-out-container').removeClass('activated');
         $('.image').removeClass('activated');
         $('#emptwo').removeClass('activated');
-        $('#emptwobutton').removeClass('activated');
+        //$('#emptwobutton').removeClass('activated');
     });
 
     $("#empthreebutton").click(function () {
@@ -31947,6 +31947,30 @@ $(window).bind('scroll', function () {
     }
 });
 
+// action when scrolled
+$(window).bind('scroll', function () {
+
+    var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+    if (bottom_of_window > $('.founders').position().top) {
+
+        $('.animatedfounders').addClass('activated');
+    }
+
+    // if (bottom_of_window > $('.bgimgthree').position().top) {
+    //
+    //     $('.animatedsec').addClass('activated');
+    //
+    // }
+    //
+    // if (bottom_of_window > $('.bgimgfive').position().top) {
+    //
+    //     $('.animatedthr').addClass('activated');
+    //
+    // }
+
+});
+
 $(function () {
 
     // document.getElementById("demo").innerHTML = "Read Less";
@@ -31974,51 +31998,38 @@ $(document).ready(function () {
     });
 });
 
-var lFollowX = 0,
-    lFollowY = 0,
-    x = 0,
-    y = 0,
-    friction = 1 / 30;
-
-function moveBackground() {
-    x += (lFollowX - x) * friction;
-    y += (lFollowY - y) * friction;
-
-    translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
-
-    $('.frame').css({
-        '-webit-transform': translate,
-        '-moz-transform': translate,
-        'transform': translate
-    });
-
-    window.requestAnimationFrame(moveBackground);
-}
-
-$(window).on('mousemove click', function (e) {
-
-    var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
-    var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-    lFollowX = 80 * lMouseX / 100; // 100 : 12 = lMouxeX : lFollow
-    lFollowY = 40 * lMouseY / 100;
-});
-
-moveBackground();
-
-// $(document).ready(function() {
-//     var movementStrength = 10;
-//     var height = movementStrength / $(window).height();
-//     var width = movementStrength / $(window).width();
-//     $(".parallax").mousemove(function(e){
-//         var pageX = e.pageX - ($(window).width() / 2);
-//         var pageY = e.pageY - ($(window).height() / 2);
-//         var newvalueX = width * pageX * -1 - 10;
-//         var newvalueY = height * pageY * -1 - 20;
-//         $('.parallax').css("background-position", newvalueX+"px     "+newvalueY+"px");
+// var lFollowX = 0,
+//     lFollowY = 0,
+//     x = 0,
+//     y = 0,
+//     friction = 1 / 30;
+//
+// function moveBackground() {
+//     x += (lFollowX - x) * friction;
+//     y += (lFollowY - y) * friction;
+//
+//     translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
+//
+//     $('.frame').css({
+//         '-webit-transform': translate,
+//         '-moz-transform': translate,
+//         'transform': translate
 //     });
+//
+//     window.requestAnimationFrame(moveBackground);
+// }
+//
+// $(window).on('mousemove click', function(e) {
+//
+//     var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
+//     var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
+//     lFollowX = (80 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
+//     lFollowY = (40 * lMouseY) / 100;
+//
 // });
 //
-//
+// moveBackground();
+
 
 $(document).ready(function () {
     var newX,
@@ -32099,6 +32110,14 @@ $(document).ready(function () {
 
     setInterval(movement, 10);
     idle();
+});
+
+//scroll to sect
+$(function () {
+    $('a[href*=#]').on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: $($(this).attr('#servs')).offset().top }, 500, 'linear');
+    });
 });
 
 /***/ }),

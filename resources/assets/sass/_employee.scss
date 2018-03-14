@@ -3,7 +3,7 @@
   transition: 1s transform ease-in-out;
 
   transform: translateX(200%);
-  width: 100%;
+  width: 101%;
 
 
   z-index: 1004;
@@ -20,7 +20,7 @@
   transition: 1s transform ease-in-out;
 
   transform: translateX(200%);
-  width: 100%;
+  width: 101%;
 
 
   z-index: 1004;
@@ -77,4 +77,58 @@
   margin-bottom: 45px;
   margin-left:20px;
   margin-right: 20px;
+}
+
+
+.founders{
+
+  .founders-left{
+    padding-right: 0 !important;
+    transform: translateX(-100%);
+    transition: 1s all ease-in-out;
+    &.activated{
+      transform: translateX(0%);
+    }
+    .founder-button-left{
+      max-width: 200px;
+      max-height: 50px;
+      border: 2px solid white;
+      color: white;
+      position: absolute;
+      bottom: 5%;
+      right: 10%;
+      padding: 20px;
+      display: none;
+    }
+    &:hover .founder-button-left{
+      display: block;
+    }
+
+  }
+
+
+  .founders-right{
+    padding-left: 0 !important;
+    transform: translateX(100%);
+    transition: 1s all ease-in-out;
+    &.activated{
+      transform: translateX(0%);
+    }
+    .founder-button-right{
+      max-width: 200px;
+      max-height: 50px;
+      border: 2px solid white;
+      color: white;
+      position: absolute;
+      bottom: 5%;
+      left: 10%;
+      padding: 20px;
+      display: none;
+    }
+    &:hover .founder-button-right{
+      display: block;
+    }
+  }
+
+
 }
