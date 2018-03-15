@@ -66,8 +66,10 @@ $(document).ready(function () {
         $('.image').removeClass('activated');
         $('#contactform').addClass('activated');
         $('#contactformbutton').addClass('activated');
+        $('html, body').animate({ scrollTop: ($('.mountains').offset().top)},500);
 
     });
+
 
     $( "#contact-close" ).click(function() {
         $('.pull-out-container').removeClass('activated');
@@ -75,6 +77,41 @@ $(document).ready(function () {
         $('#contactform').removeClass('activated');
         $('#contactformbutton').removeClass('activated');
     });
+
+
+    //NAVIGATION
+    $( ".servs" ).click(function() {
+
+        $('html, body').animate({ scrollTop: ($('#servs').offset().top -150)},500);
+
+    });
+
+    $( ".team" ).click(function() {
+
+        $('html, body').animate({ scrollTop: ($('#foundersbig').offset().top -150)},500);
+
+    });
+
+    $( ".teamsm" ).click(function() {
+
+        $('html, body').animate({ scrollTop: ($('#founderssm').offset().top -200)},500);
+
+    });
+    $( ".skills" ).click(function() {
+
+        $('html, body').animate({ scrollTop: ($('#skills').offset().top -200)},500);
+
+    });
+
+    $( ".contact" ).click(function() {
+
+        $('html, body').animate({ scrollTop: ($('#contact').offset().top -150)},500);
+
+    });
+
+
+
+
 });
 
 //action when scrolled
@@ -129,19 +166,18 @@ $(window).bind('scroll', function () {
 
 });
 
-$(function(){
-
-    // document.getElementById("demo").innerHTML = "Read Less";
-    var param = document.location.pathname;
-    if(window.location.href.indexOf("#") > -1){
-
-
-    }
-    $('html, body').animate({
-        scrollTop: $(param.substr(1)).offset().top - 490
-    }, 4000);
-    return false;
-});
+// $(function(){
+//
+//     // document.getElementById("demo").innerHTML = "Read Less";
+//     var param = document.location.pathname;
+//     if(window.location.href.indexOf("#") > -1){
+//
+//
+//     }
+//
+//     $('html, body').animate({ scrollTop: ($(param.substr(1)).offset().top)},500);
+//     return false;
+// });
 
 
 $(document).ready(function() {
@@ -288,9 +324,18 @@ $(document).ready(function() {
 
 
 //scroll to sect
-$(function() {
-    $('a[href*=#]').on('click', function(e) {
-        e.preventDefault();
-        $('html, body').animate({ scrollTop: $($(this).attr('#servs')).offset().top}, 500, 'linear');
-    });
-});
+// $(function() {
+//     $('a[href*=#]').on('click', function(e) {
+//         //e.preventDefault();
+//         $('html, body').animate({ scrollTop: ($('#servs').offset().top)},500);
+//     });
+// });
+
+
+//scroll to contact
+// $(function() {
+//     $('#contactformbutton').on('click', function(e) {
+//         e.preventDefault();
+//         $('html, body').animate({ scrollTop: $($(this).attr('#contactform')).offset().top}, 500, 'linear');
+//     });
+// });

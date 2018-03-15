@@ -29,7 +29,7 @@ header {
       top: 0px;
       left: 0px;
       cursor: pointer;
-      background: #316980 !important;
+      background: orangered;
       &.middle {
         top: 8px;
       }
@@ -75,7 +75,7 @@ header {
       display: block;
       margin: 7.5px 0;
       height: 1px;
-      background: #316980 !important;
+      background: orangered;
       &.top {
         transform: translateY(10px) translateX(0) rotate(45deg);
         -webkit-transform: translateY(10px) translateX(0) rotate(45deg);

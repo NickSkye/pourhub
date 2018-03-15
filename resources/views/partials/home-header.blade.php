@@ -18,12 +18,12 @@
 			<a href="/" class="brand " ><img src="/images/IntelliSkye_logo_white-blue.png" class="intelliskyelogo" alt=""></a>
     		<ul>
 				<li><a href="/">Home</a></li>
-    			<li><a href="#services">Our Services</a></li>
-    			<li><a href="#team">Our Team</a></li>
-				<li><a href="#skills">Our Skills</a></li>
+    			<li><a href="#servs" class="servs">Our Services</a></li>
+    			<li><a href="#teamsm" class="teamsm">Our Team</a></li>
+				<li><a href="#skills" class="skills">Our Skills</a></li>
     			{{--<li><a href="/about-rejuvenation">About Rejuvenation Wellness</a></li>--}}
 				{{--<li><a href="/faq">FAQ</a></li>--}}
-    			<li><a href="#contact">Contact</a></li>
+    			<li><a href="#contact" class="contact">Contact</a></li>
     		</ul>
     	</div>
     </div>
@@ -32,12 +32,12 @@
 	<nav>
 		<ul>
 			<li><a href="/">Home</a></li>
-			<li><a href="#services">Our Services</a></li>
-			<li><a href="#team">Our Team</a></li>
-			<li><a href="#skills">Our Skills</a></li>
+			<li><a href="#servs" class="servs">Our Services</a></li>
+			<li><a href="#team" class="team">Our Team</a></li>
+			<li><a href="#skills" class="skills">Our Skills</a></li>
 			{{--<li><a href="/about-rejuvenation">About Rejuvenation Wellness</a></li>--}}
 			{{--<li><a href="/faq">FAQ</a></li>--}}
-			<li><a href="#contact">Contact</a></li>
+			<li><a href="#contact" class="contact">Contact</a></li>
 		</ul>
 	</nav>
 </div>

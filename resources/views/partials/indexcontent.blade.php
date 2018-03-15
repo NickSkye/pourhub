@@ -66,7 +66,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 
     {{--testend--}}
     <div id="section05">
-        <a href="#servs"><span></span></a>
+        <a href="#servs" class="servs"><span></span></a>
     </div>
 </div>
 {{--<div class="parallax paraone">--}}
@@ -158,7 +158,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 {{--</div>--}}
 {{--</div>--}}
 
-<div class="row founders hidden-xs">
+<div class="row founders founderstop hidden-xs" id="foundersbig">
     <div id="emptwobutton" class="col-sm-6 animatedfounders founders-left">
         {{--<img src="/images/nickingenuity.jpg" class="employee-photo" alt="">--}}
         <div class="employee-photo left"></div>
@@ -226,9 +226,9 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 {{--</div>--}}
 
 
-<div class="row crystals visible-xs">
+<div class="row crystals founderstop visible-xs" id="founderssm">
     <div class="col-sm-12">
-        <div class="about__block--container shadowdiv black-on-white" id="team">
+        <div class="about__block--container shadowdiv black-on-white" id="teamsm">
             <div class="about__block container-fluid">
                 {{--DORI--}}
                 <div class="image no-padding-right" data-aos="slide-right" data-aos-delay="300">
@@ -462,51 +462,4 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
         </div>
     </div>
 </div>
-<div class="parallax parafive ">
 
-    {{--<div class="bubble x1"></div>--}}
-    {{--<div class="bubble x2"></div>--}}
-    {{--<div class="bubble x3"></div>--}}
-    {{--<div class="bubble x4"></div>--}}
-    {{--<div class="bubble x5"></div>--}}
-    {{--<div class="bubble x6"></div>--}}
-    {{--<div class="bubble x7"></div>--}}
-    {{--<div class="bubble x8"></div>--}}
-    {{--<div class="bubble x9"></div>--}}
-    {{--<div class="bubble x10"></div>--}}
-    <div id="contactform" class="container pull-out-container-contact">
-
-        <div class="col-sm-6 col-sm-offset-3">
-            <div class="row">
-                <h2>Contact Us Today!</h2>
-                <i class="fa fa-times fa-2x" id="contact-close" style="position: absolute; top: 5%; right: 5%;"
-                   aria-hidden="true"></i>
-            </div>
-
-            <form action="/sendemail" class="contact-form" method="post">
-                {{ csrf_field() }}
-                <div class="form-group">
-
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-                </div>
-
-                <div class="form-group">
-
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-                </div>
-
-                <div class="form-group">
-
-                    <textarea class="form-control" id="messbody" name="messbody" placeholder="Message"
-                              rows="4"></textarea>
-                </div>
-
-                <br>
-                <button href="#" class="link-cta" role="button">Submit</button>
-                {{--<button class="btn btn-primary btn-lg">Submit</button>--}}
-            </form>
-        </div>
-    </div>
-
-
-</div>
