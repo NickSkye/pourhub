@@ -17,7 +17,7 @@
     	<div class="mobile__nav--container animated slide-in-right">
 			<a href="/" class="brand " ><img src="/images/IntelliSkye_logo_white-blue.png" class="intelliskyelogo" alt=""></a>
     		<ul>
-				<li><a href="/">Home</a></li>
+				<li style="margin-top: 50px;"><a href="/">Home</a></li>
     			<li><a href="#servs" class="servs">Our Services</a></li>
     			<li><a href="#teamsm" class="teamsm">Our Team</a></li>
 				<li><a href="#skills" class="skills">Our Skills</a></li>
