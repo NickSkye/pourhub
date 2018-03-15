@@ -5,7 +5,7 @@
             <h1 class="title-load animated ">
                 SIMPLIFYING<br>SOFTWARE
             </h1>
-            <div class="title-border"></div>
+            <div class="title-border hidden-xs"></div>
         </div>
     </div>
     {{--PLANE--}}
