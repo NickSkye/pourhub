@@ -451,12 +451,11 @@ footer:hover {
 }
 
 .parallax.parathree {
-  background-image: url("/images/paralaxthird.jpg");
+  background: white;
 }
 
 .parallax.parafour {
-  background-image: url("/images/oceansky.jpg");
-  min-height: 800px;
+  background: white;
 }
 
 .parallax.parafive {

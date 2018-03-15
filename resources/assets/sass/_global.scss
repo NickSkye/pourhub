@@ -476,12 +476,14 @@ footer:hover {
         min-height: 300px;
     }
     &.parathree {
-        background-image: url("/images/paralaxthird.jpg");
-
+       // background-image: url("/images/paralaxthird.jpg");
+        background: white;
     }
     &.parafour {
-        background-image: url("/images/oceansky.jpg");
-        min-height: 800px;
+        //background-image: url("/images/oceansky.jpg");
+        //min-height: 800px;
+        background: white;
+
     }
     &.parafive {
         background-image: url("/images/parafish.jpg");

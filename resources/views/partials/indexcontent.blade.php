@@ -338,8 +338,8 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 </div>
 
 
-<div class="parallax parathree">
-    <div class="row text-center " style="position: absolute;">
+<div class="parallax parathree black-on-white">
+    <div class="row text-center " >
         <div class="col-xs-12 top-margin-100" data-aos="fade-up" data-aos-duration="1500">
             <h2 class="title-load animated" id="skills">
                 OUR<br>SKILLS
@@ -445,87 +445,23 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
         </div>
 
 
-        {{--<div class="about__block--container shadowdiv hidden" id="projects">--}}
-        {{--<div class="about__block container-fluid">--}}
-        {{--<div class="content__block col-xs-12" data-aos="fade-up" data-aos-delay="300">--}}
-        {{--<div class="row">--}}
-        {{--<div id="myCarousel" class="carousel slide" data-ride="carousel">--}}
-        {{--<!-- Indicators -->--}}
-        {{--<ol class="carousel-indicators">--}}
-        {{--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>--}}
-        {{--<li data-target="#myCarousel" data-slide-to="1"></li>--}}
-        {{--<li data-target="#myCarousel" data-slide-to="2"></li>--}}
-        {{--</ol>--}}
 
-        {{--<!-- Wrapper for slides -->--}}
-        {{--<div class="carousel-inner">--}}
-        {{--<div class="item active">--}}
-        {{--<div class="row">--}}
-        {{--<div class="row">--}}
-        {{--<div class="col-xs-4">--}}
-        {{--<h2>SweatBid</h2>--}}
-        {{--<img src="/images/sweatbid.png" alt="">--}}
-        {{--</div>--}}
-        {{--<div class="col-xs-4">--}}
-        {{--<h2>Celebrities Squared</h2>--}}
-        {{--<img src="/images/cs-icon-1024.png" alt="">--}}
-        {{--</div>--}}
-        {{--<div class="col-xs-4">--}}
-        {{--<h2>Flippy's Flight</h2>--}}
-        {{--<img src="/images/flippys1024.png" alt="">--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-
-        {{--<div class="item">--}}
-        {{--<div class="row">--}}
-        {{--<div class="row">--}}
-        {{--<div class="col-xs-4">--}}
-        {{--<h2>SweatBid</h2>--}}
-        {{--<img src="/images/sweatbid.png" alt="">--}}
-        {{--</div>--}}
-        {{--<div class="col-xs-4">--}}
-        {{--<h2>Celebrities Squared</h2>--}}
-        {{--<img src="/images/cs-icon-1024.png" alt="">--}}
-        {{--</div>--}}
-        {{--<div class="col-xs-4">--}}
-        {{--<h2>Flippy's Flight</h2>--}}
-        {{--<img src="/images/flippys1024.png" alt="">--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-
-        {{----}}
-        {{--</div>--}}
-
-        {{--<!-- Left and right controls -->--}}
-        {{--<a class="left carousel-control" href="#myCarousel" data-slide="prev">--}}
-        {{--<span class="glyphicon glyphicon-chevron-left"></span>--}}
-        {{--<span class="sr-only">Previous</span>--}}
-        {{--</a>--}}
-        {{--<a class="right carousel-control" href="#myCarousel" data-slide="next">--}}
-        {{--<span class="glyphicon glyphicon-chevron-right"></span>--}}
-        {{--<span class="sr-only">Next</span>--}}
-        {{--</a>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
     </div>
 </div>
-<div class="parallax parafour">
-    <div class="row text-center ">
-        <div class="col-xs-12 top-margin-50" data-aos="fade-up" data-aos-duration="1500">
-            <h2 class="title-load animated">
-                CONTACT<br>US TODAY
+<div class="parallax parafour black-on-white">
+    <div class="row text-center " >
+        <div class="col-xs-12 top-margin-100" data-aos="fade-up" data-aos-duration="1500">
+            <h2 class="title-load animated" id="skills">
+                GET IN TOUCH
             </h2>
+            <p>We believe communication is foundation for any strong relationship. </p>
 
         </div>
     </div>
+
 </div>
+
+<hr>
 
 <div class="row crystals black-on-white">
     <div class="col-sm-12">
