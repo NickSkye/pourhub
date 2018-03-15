@@ -160,11 +160,13 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 
 <div class="row founders hidden-xs">
     <div id="emptwobutton" class="col-sm-6 animatedfounders founders-left">
-        <img src="/images/nickingenuity.jpg" class="employee-photo" alt="">
+        {{--<img src="/images/nickingenuity.jpg" class="employee-photo" alt="">--}}
+        <div class="employee-photo left"></div>
         <div class="founder-button-left">Reveal More</div>
     </div>
     <div id="emponebutton" class="col-sm-6 animatedfounders founders-right">
-        <img src="/images/dori.jpg" class="employee-photo" alt="">
+        {{--<img src="/images/dori.jpg" class="employee-photo" alt="">--}}
+        <div class="employee-photo right"></div>
         <div class="founder-button-right">Reveal More</div>
     </div>
     @include('partials.pullouts')
@@ -312,23 +314,23 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
                 </div>
 
                 {{--STEVEN--}}
-                <div class="image no-padding-right" data-aos="slide-left" data-aos-delay="300">
-                    <img src="/images/steveo.jpg" class="employee-photo-mobile" alt="" data-aos-delay="200"
-                         data-aos-easing="ease-in-sine">
-                </div>
-                <div class="employee-info" data-aos="fade-up" data-aos-delay="300">
-                    <h2>Skills</h2>
-                    <h5>GRAPHICS</h5>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 100%;">
-                            <span class="sr-only">100% Complete</span>
-                        </div>
-                    </div>
+                {{--<div class="image no-padding-right" data-aos="slide-left" data-aos-delay="300">--}}
+                    {{--<img src="/images/steveo.jpg" class="employee-photo-mobile" alt="" data-aos-delay="200"--}}
+                         {{--data-aos-easing="ease-in-sine">--}}
+                {{--</div>--}}
+                {{--<div class="employee-info" data-aos="fade-up" data-aos-delay="300">--}}
+                    {{--<h2>Skills</h2>--}}
+                    {{--<h5>GRAPHICS</h5>--}}
+                    {{--<div class="progress">--}}
+                        {{--<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"--}}
+                             {{--aria-valuemax="100" style="width: 100%;">--}}
+                            {{--<span class="sr-only">100% Complete</span>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
 
 
-                    <p>Steven Grenrock is a groundbreaking designer and artist. His works have been featured on several websites and he has worked as the graphic designer for several previous mobile applications with IntelliSkye. He has a passion for new and unique designs and is capable of creating the dream that you see for your mobile application or website.</p>
-                </div>
+                    {{--<p>Steven Grenrock is a groundbreaking designer and artist. His works have been featured on several websites and he has worked as the graphic designer for several previous mobile applications with IntelliSkye. He has a passion for new and unique designs and is capable of creating the dream that you see for your mobile application or website.</p>--}}
+                {{--</div>--}}
 
 
             </div>
@@ -341,7 +343,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
     <div class="row text-center ">
         <div class="col-xs-12 top-margin-100" data-aos="fade-up" data-aos-duration="1500">
             <h2 class="title-load animated" id="skills">
-                OUR<br>SKILLS
+                OUR SKILLS
             </h2>
 
         </div>
@@ -352,7 +354,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
     <div class="col-xs-12">
 
 
-        <div class="row">
+        <div class="row" data-aos="slide-right" data-aos-delay="300">
             <div class="col-sm-3">
                 <img src="/images/icons/Androidicon.png" class="skillsicon" alt="">
             </div>
@@ -366,7 +368,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
                 <img src="/images/icons/bootstrapicon.png" alt="" class="skillsicon">
             </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="slide-left" data-aos-delay="300">
             <div class="col-sm-3">
                 <img src="/images/icons/cssicon.png" alt="" class="skillsicon">
             </div>
@@ -382,7 +384,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
         </div>
 
 
-        <div class="row">
+        <div class="row" data-aos="slide-right" data-aos-delay="300">
 
             <div class="col-sm-3">
                 <img src="/images/icons/js.png" alt="" class="skillsicon">
@@ -399,7 +401,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
         </div>
 
 
-        <div class="row">
+        <div class="row" data-aos="slide-left" data-aos-delay="300">
             <div class="col-sm-3">
                 <img src="/images/icons/pythonicon.png" class="skillsicon" alt="">
             </div>
@@ -442,7 +444,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
             <div class="about__block container-fluid">
                 <div class="content__block col-sm-6 col-sm-offset-3" data-aos="fade-up" data-aos-delay="300">
 
-                    <h2>Lets start building your dream</h2>
+                    <h2>LETS WORK TOGETHER</h2>
                     <p>The best software is necessary to achieve your goals. Here at intelliskye we have what it
                         takes
                         to make your dreams become a reality. We will never stop fighting for you. Youre going

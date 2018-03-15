@@ -540,7 +540,7 @@ footer:hover {
 }
 
 .black-on-white p {
-  font-size: 1.1vw;
+  font-size: 12pt;
 }
 
 @media (max-width: 767px) {
@@ -1464,6 +1464,17 @@ header .menu__toggle span.bottom {
   width: 100%;
   min-width: 300px;
   height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.employee-photo.left {
+  background-image: url("/images/nickingenuity.jpg");
+  background-position: bottom;
+}
+
+.employee-photo.right {
+  background-image: url("/images/dori.jpg");
 }
 
 .employee-photo-sm {

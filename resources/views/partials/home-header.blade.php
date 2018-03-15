@@ -1,6 +1,6 @@
 <header class="themeone keep-menu keep-menu-shadow">
 	<div class="container animated slide-in-right">
-		<a href="/" class="brand " ><img src="/images/IntelliSkyeWebsiteDarkBlue.png" alt=""></a>
+		<a href="/" class="brand " ><img src="/images/IntelliSkye_logo_white-blue.png" class="intelliskyelogo" alt=""></a>
 		<div class="menu__toggle">
 	      	<span class="top"></span>
 	        <span class="middle"></span>
@@ -15,7 +15,7 @@
     </div>
     <div class="menu ">
     	<div class="mobile__nav--container animated slide-in-right">
-			<a href="/" class="brand " ><img src="/images/IntelliSkyeWebsiteDarkBlue.png" alt=""></a>
+			<a href="/" class="brand " ><img src="/images/IntelliSkye_logo_white-blue.png" class="intelliskyelogo" alt=""></a>
     		<ul>
 				<li><a href="/">Home</a></li>
     			<li><a href="#services">Our Services</a></li>
