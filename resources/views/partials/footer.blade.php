@@ -21,7 +21,7 @@
 
             <div class="text-center footer-logo animated">
 
-<img src="/images/IntelliSkyeWebsiteDarkBlue.png" class="centered img-responsive" alt="footer logo">
+<img src="/images/IntelliSkyeWebsiteDarkBlue.png" class="centered footerlogo" alt="footer logo">
 </div>
 </div>
 </div>
