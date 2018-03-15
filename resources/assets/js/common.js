@@ -120,10 +120,10 @@ $(window).bind('scroll', function () {
         $('.keep-menu').addClass('fixed');
         $('.keep-menu-shadow').addClass('box-shadow');
         $('.keep-menu-shadow').addClass('colored-back');
-        $('.intelliskyelogo').attr('src', '/images/nick_logo/IntelliSkye_logo_blue.png');
+        $('.intelliskyelogo').attr('src', '/images/IntelliSkyeWebsiteDarkBlue.png');
 
     } else {
-        
+
         $('.keep-menu').removeClass('fixed');
         $('.keep-menu-shadow').removeClass('box-shadow');
         $('.keep-menu-shadow').removeClass('colored-back');
