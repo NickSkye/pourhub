@@ -1576,6 +1576,24 @@ header .menu__toggle span.bottom {
           transform: translateX(0%);
 }
 
+.founders .founders-headline {
+  position: absolute;
+  z-index: 1;
+  font-size: 62pt;
+  text-align: center;
+  right: 20%;
+  left: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+  opacity: 1;
+  -webkit-transition: 1s opacity ease-in-out;
+  transition: 1s opacity ease-in-out;
+}
+
+.founders:hover .founders-headline {
+  opacity: 0;
+}
+
 .projects-image {
   max-width: 100%;
   vertical-align: middle;
@@ -1699,9 +1717,18 @@ header .menu__toggle span.bottom {
 }
 
 .skillsicon {
-  max-width: 200px;
+  max-width: 100px;
   height: auto;
   text-align: center;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+.project-section {
+  width: 70%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  overflow: hidden;
 }
 
 .project-section .row .col-sm-3 {

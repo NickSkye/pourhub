@@ -127,12 +127,19 @@
 }
 
 .skillsicon{
-  max-width: 200px;
+  max-width: 100px;
   height: auto;
   text-align: center;
+  transition: 0.5s all ease-in-out;
 }
 
 .project-section{
+  width: 70%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  overflow: hidden;
+
+
   .row{
     .col-sm-3{
       text-align: center;

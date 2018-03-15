@@ -159,15 +159,16 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 {{--</div>--}}
 
 <div class="row founders founderstop hidden-xs" id="foundersbig">
+    <h2 class="founders-headline">OUR FOUNDERS</h2>
     <div id="emptwobutton" class="col-sm-6 animatedfounders founders-left">
         {{--<img src="/images/nickingenuity.jpg" class="employee-photo" alt="">--}}
         <div class="employee-photo left"></div>
-        <div class="founder-button-left">About Our Founders</div>
+        <div class="founder-button-left">More About Nick</div>
     </div>
     <div id="emponebutton" class="col-sm-6 animatedfounders founders-right">
         {{--<img src="/images/dori.jpg" class="employee-photo" alt="">--}}
         <div class="employee-photo right"></div>
-        <div class="founder-button-right">About Our Founders</div>
+        <div class="founder-button-right">More About Dori</div>
     </div>
     @include('partials.pullouts')
 </div>

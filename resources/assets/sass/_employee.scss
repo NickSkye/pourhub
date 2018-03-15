@@ -154,5 +154,23 @@ overflow: hidden;
     }
   }
 
+  .founders-headline{
+
+    position: absolute;
+    z-index: 1;
+    font-size: 62pt;
+    text-align: center;
+    right: 20%;
+    left: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: 1;
+    transition: 1s opacity ease-in-out;
+  }
+
+  &:hover .founders-headline{
+    opacity: 0;
+  }
+
 
 }
