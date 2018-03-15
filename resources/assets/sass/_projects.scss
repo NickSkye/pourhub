@@ -127,6 +127,16 @@
 }
 
 .skillsicon{
-  width: 100%;
+  max-width: 200px;
   height: auto;
+  text-align: center;
+}
+
+.project-section{
+  .row{
+    .col-sm-3{
+      text-align: center;
+      margin-bottom: 50px;
+    }
+  }
 }
