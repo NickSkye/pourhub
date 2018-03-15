@@ -374,7 +374,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
                 <img src="/images/icons/HTML_Logo.png" alt="" class="skillsicon">
             </div>
             <div class="col-sm-3">
-                <img src="/images/icons/java_thumb.jpg" class="skillsicon" alt="">
+                <img src="/images/icons/java_thumb.png" class="skillsicon" alt="">
             </div>
             <div class="col-sm-3">
                 <img src="/images/icons/jqueryicon.png" alt="" class="skillsicon">
@@ -391,7 +391,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
                 <img src="/images/icons/laravelicon.png" alt="" class="skillsicon">
             </div>
             <div class="col-sm-3">
-                <img src="/images/icons/linuxicon.ico" alt="" class="skillsicon">
+                <img src="/images/icons/linux.png" alt="" class="skillsicon">
             </div>
             <div class="col-sm-3">
                 <img src="/images/icons/mysqlicon.png" alt="" class="skillsicon">
