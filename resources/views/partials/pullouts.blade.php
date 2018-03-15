@@ -9,7 +9,7 @@
             <h2>Dori Mouawad</h2>
             <p>Dori Mouawad is a UCI alum with many years of experience in developing mobile
                 applications under his belt. An expert in both native Android, and iOS development, he
-                has worked on an array of different projects during his time with IntelliSkye. Some of
+                has worked on an array of different projects since he helped to found IntelliSkye. Some of
                 the different types of projects he has completed range from a mobile side scroller game,
                 to an application to help educate those most at risk of the dangers of human traffiking
                 and how to avoid becoming a victim. He has honed his skills in the design and
@@ -61,7 +61,7 @@
             <h2>Nicholas Hoyt</h2>
             <p>Nicholas Hoyt is a UCI alum with many years of experience in developing mobile
                 applications and award winning websites under his belt. Skilled in both native Android, and iOS development, he
-                has worked on an array of different projects during his time with IntelliSkye. Nicholas has worked for several large companies creating beautiful and interactive websites. He has honed his skills in the design and
+                has worked on an array of different projects since he co-founded IntelliSkye. Nicholas has worked with several large companies creating beautiful and interactive websites. He has honed his skills in the design and
                 development of web applications and is constantly at the forefront of creating new and
                 exciting websites.</p>
         </div>

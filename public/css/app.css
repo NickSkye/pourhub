@@ -1181,11 +1181,13 @@ header .menu__toggle span.bottom {
   list-style-type: none;
   text-align: center;
   margin: 15px 0;
+  font-size: 20pt;
 }
 
 .mobile__menu ul li a {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
+  font-size: 20pt;
 }
 
 .desktop__navigation {
@@ -1510,6 +1512,7 @@ header .menu__toggle span.bottom {
   transition: 1s all ease-in-out;
   border-top: 1px solid black;
   border-right: 1px solid white;
+  overflow: hidden;
 }
 
 .founders .founders-left.activated {
@@ -1518,19 +1521,23 @@ header .menu__toggle span.bottom {
 }
 
 .founders .founders-left .founder-button-left {
-  max-width: 200px;
-  max-height: 50px;
+  background-color: #316980 !important;
+  font-size: 14pt;
   border: 2px solid white;
   color: white;
   position: absolute;
-  bottom: 5%;
+  bottom: 25%;
   right: 10%;
   padding: 20px;
-  display: none;
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
 }
 
 .founders .founders-left:hover .founder-button-left {
-  display: block;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
 }
 
 .founders .founders-right {
@@ -1541,6 +1548,7 @@ header .menu__toggle span.bottom {
   transition: 1s all ease-in-out;
   border-top: 1px solid black;
   border-left: 1px solid white;
+  overflow: hidden;
 }
 
 .founders .founders-right.activated {
@@ -1549,19 +1557,23 @@ header .menu__toggle span.bottom {
 }
 
 .founders .founders-right .founder-button-right {
-  max-width: 200px;
-  max-height: 50px;
+  background-color: orangered !important;
+  font-size: 14pt;
   border: 2px solid white;
   color: white;
   position: absolute;
-  bottom: 5%;
+  bottom: 25%;
   left: 10%;
   padding: 20px;
-  display: none;
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
 }
 
 .founders .founders-right:hover .founder-button-right {
-  display: block;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
 }
 
 .projects-image {
