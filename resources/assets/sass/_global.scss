@@ -300,11 +300,15 @@ html {
     top: 0;
     z-index: 1900;
 
-    //background-color: white;
-    // opacity: 1;
+                    a {
 
-    //width: 100%;
-    //height: 16%;
+                        color: #316980 !important;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+
 
 }
 
@@ -552,6 +556,7 @@ footer:hover {
     background-color: white !important;
     h2, h5, p {
         color: black !important;
+        opacity: 0.7;
     }
 
     p {
@@ -1233,4 +1238,5 @@ svg {
 width: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
+    opacity: 0.7;
 }

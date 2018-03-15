@@ -261,6 +261,14 @@ html {
   z-index: 1900;
 }
 
+.fixed a {
+  color: #316980 !important;
+}
+
+.fixed a:hover {
+  text-decoration: none;
+}
+
 .top-margin-100 {
   margin-top: 100px;
 }
@@ -528,6 +536,7 @@ footer:hover {
 .black-on-white h5,
 .black-on-white p {
   color: black !important;
+  opacity: 0.7;
 }
 
 .black-on-white p {
@@ -1053,6 +1062,7 @@ svg {
   width: 100px;
   margin-top: 20px;
   margin-bottom: 20px;
+  opacity: 0.7;
 }
 
 header {
@@ -1084,7 +1094,7 @@ header .menu__toggle span {
   top: 0px;
   left: 0px;
   cursor: pointer;
-  background: #ffffff;
+  background: #316980 !important;
 }
 
 header .menu__toggle span.middle {
@@ -1134,7 +1144,7 @@ header .menu__toggle span.bottom {
   display: block;
   margin: 7.5px 0;
   height: 1px;
-  background: #ffffff;
+  background: #316980 !important;
 }
 
 .mobile__menu .close span.top {
@@ -1373,8 +1383,8 @@ header .menu__toggle span.bottom {
 }
 
 .colored-back {
-  background: -webkit-gradient(linear, left top, left bottom, from(#316980), to(#387d8c)) !important;
-  background: linear-gradient(#316980, #387d8c) !important;
+  background: white;
+  color: #316980 !important;
 }
 
 .initial-cover {
