@@ -429,7 +429,7 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
             <h2 class="title-load animated" id="skills">
                 GET IN TOUCH
             </h2>
-            <p>We believe communication is foundation for any strong relationship. </p>
+            <p>We believe communication is the foundation for any strong relationship. </p>
 
         </div>
     </div>
