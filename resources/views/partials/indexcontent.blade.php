@@ -3,7 +3,7 @@
 {{--</div>--}}
 
 
-<div id="myCarousel" class="carousel slide vertical" data-ride="carousel" style="z-index: -1; min-height: 900px;">
+<div id="myCarousel" class="carousel vertical slide" data-ride="carousel" style="z-index: -1; min-height: 900px;">
 
 
     <div class="carousel-inner">
