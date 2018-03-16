@@ -22,11 +22,11 @@
             </div>
         </div>
 
-        {{--<div class="item">--}}
-            {{--<div class="parallax parazerothree">--}}
-                {{--@include('partials.parazerothreecontent')--}}
-            {{--</div>--}}
-        {{--</div>--}}
+        <div class="item">
+            <div class="parallax parazerothree">
+                @include('partials.parazerothreecontent')
+            </div>
+        </div>
 
 
     </div>

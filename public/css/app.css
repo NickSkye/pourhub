@@ -241,6 +241,11 @@ html {
   margin-top: 30%;
 }
 
+.page-generic .top-margin-50 h1 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 .page-generic .title-load {
   -webkit-transform: scale(2);
           transform: scale(2);
@@ -483,7 +488,7 @@ footer:hover {
 }
 
 .parallax.parazerothree {
-  background-image: url("/images/mountainclouds.gif");
+  background-image: url("/images/islandgif.gif");
   min-height: 900px;
 }
 

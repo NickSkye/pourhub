@@ -272,6 +272,10 @@ html {
 
     .top-margin-50 {
         margin-top: 30%;
+        h1{
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
     }
 
     .title-load {
@@ -515,7 +519,7 @@ footer:hover {
         min-height: 900px;
     }
     &.parazerothree {
-        background-image: url("/images/mountainclouds.gif");
+        background-image: url("/images/islandgif.gif");
         min-height: 900px;
     }
     &.paraone {
