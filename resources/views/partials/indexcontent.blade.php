@@ -159,18 +159,34 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
 {{--</div>--}}
 
 <div class="row founders founderstop hidden-xs" id="foundersbig">
-    <h2 class="founders-headline">OUR FOUNDERS</h2>
-    <div id="emptwobutton" class="col-sm-6 animatedfounders founders-left">
+
+    {{--@include('partials.modals')--}}
+    <div  class="col-sm-6 animatedfounders founders-left" data-toggle="modal" data-target="#nickModal">
         {{--<img src="/images/nickingenuity.jpg" class="employee-photo" alt="">--}}
         <div class="employee-photo left"></div>
-        <div class="founder-button-left">More About Nick</div>
+        <div class="founder-button-left">
+            <h3>Nicholas Hoyt</h3>
+            Nicholas Hoyt is a UCI alum with many years of experience in developing mobile
+            applications and award winning websites under his belt. Skilled in both native Android, and iOS development, he
+            has worked on an array of different projects since he co-founded IntelliSkye. Nicholas has worked with several large companies creating beautiful and interactive websites. He has honed his skills in the design and
+            development of web applications and is constantly at the forefront of creating new and
+            exciting websites.</div>
     </div>
-    <div id="emponebutton" class="col-sm-6 animatedfounders founders-right">
+    <div  class="col-sm-6 animatedfounders founders-right" data-toggle="modal" data-target="#doriModal">
         {{--<img src="/images/dori.jpg" class="employee-photo" alt="">--}}
         <div class="employee-photo right"></div>
-        <div class="founder-button-right">More About Dori</div>
+        <div class="founder-button-right">
+            <h3>Dori Mouawad</h3>
+            Dori Mouawad is a UCI alum with many years of experience in developing mobile
+            applications under his belt. An expert in both native Android, and iOS development, he
+            has worked on an array of different projects since he helped to found IntelliSkye. Some of
+            the different types of projects he has completed range from a mobile side scroller game,
+            to an application to help educate those most at risk of the dangers of human traffiking
+            and how to avoid becoming a victim. He has honed his skills in the design and
+            development of mobile applications is constantly at the forefront of creating new and
+            exciting applications.</div>
     </div>
-    @include('partials.pullouts')
+    {{--@include('partials.pullouts')--}}
 </div>
 
 

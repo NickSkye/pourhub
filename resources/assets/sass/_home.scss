@@ -48,6 +48,8 @@
     background-color: black;
 
     min-height: 400px !important;
+    max-height: 600px;
+    overflow: hidden;
     position: absolute;
     -webkit-box-shadow: inset 0px 9px 19px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 9px 19px 0px rgba(0,0,0,0.75);

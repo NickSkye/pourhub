@@ -5,7 +5,7 @@
     </div>
     <div class="row" style="margin-left: 0px; margin-right: 15px;">
 
-        <div class="col-xs-4 padding-lr">
+        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-4 padding-lr">
             <h2>Dori Mouawad</h2>
             <p>Dori Mouawad is a UCI alum with many years of experience in developing mobile
                 applications under his belt. An expert in both native Android, and iOS development, he
@@ -16,10 +16,10 @@
                 development of mobile applications is constantly at the forefront of creating new and
                 exciting applications.</p>
         </div>
-        <div class="col-xs-4">
+        <div class="col-lg-4 hidden-md">
             <img src="/images/dori.jpg" class="employee-photo-sm">
         </div>
-        <div class="col-xs-4">
+        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-4">
             <h2>Skills</h2>
             {{--line graph with skills--}}
             <h5>iOS / Android</h5>
@@ -57,7 +57,7 @@
     </div>
     <div class="row" style="margin-left: 0px; margin-right: 15px;">
 
-        <div class="col-xs-4 padding-lr">
+        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-4 padding-lr">
             <h2>Nicholas Hoyt</h2>
             <p>Nicholas Hoyt is a UCI alum with many years of experience in developing mobile
                 applications and award winning websites under his belt. Skilled in both native Android, and iOS development, he
@@ -65,10 +65,10 @@
                 development of web applications and is constantly at the forefront of creating new and
                 exciting websites.</p>
         </div>
-        <div class="col-xs-4">
+        <div class="col-lg-4 hidden-md">
             <img src="/images/nickingenuity.jpg" class="employee-photo-sm">
         </div>
-        <div class="col-xs-4">
+        <div class="col-sm-6 col-xs-6 col-md-6 col-lg-4">
             <h2>Skills</h2>
             {{--line graph with skills--}}
             <h5>iOS / Android</h5>
