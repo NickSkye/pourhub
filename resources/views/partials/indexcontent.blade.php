@@ -8,10 +8,12 @@
 
     <div class="carousel-inner">
 
-        <div class="item active ">
+        <div class="item active">
             <div class="parallax parazero">
             @include('partials.parazerocontent')
+
             </div>
+
         </div>
 
         <div class="item">
@@ -20,17 +22,19 @@
             </div>
         </div>
 
-        <div class="item">
-            <div class="parallax parazerothree">
-                @include('partials.parazerothreecontent')
-            </div>
-        </div>
+        {{--<div class="item">--}}
+            {{--<div class="parallax parazerothree">--}}
+                {{--@include('partials.parazerothreecontent')--}}
+            {{--</div>--}}
+        {{--</div>--}}
 
 
     </div>
 
 </div>
-
+<div id="section05">
+    <a href="#servs" class="servs"><span></span></a>
+</div>
 
 {{--<div class="parallax paraone">--}}
 {{--<div>--}}

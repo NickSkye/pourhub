@@ -8,7 +8,4 @@
 </div>
 
 
-    <div id="section05">
-        <a href="#servs" class="servs"><span></span></a>
-    </div>
-</div>
+
