@@ -279,10 +279,6 @@ html {
   background-color: grey !important;
 }
 
-.page-generic .carousel-inner {
-  max-height: 700px;
-}
-
 .fixed {
   position: fixed !important;
   top: 0;
@@ -478,6 +474,16 @@ footer:hover {
 
 .parallax.parazero {
   background-image: url("/images/snow_mount.jpg");
+  min-height: 900px;
+}
+
+.parallax.parazerotwo {
+  background-image: url("/images/mountaingif.gif");
+  min-height: 900px;
+}
+
+.parallax.parazerothree {
+  background-image: url("/images/mountainclouds.gif");
   min-height: 900px;
 }
 
