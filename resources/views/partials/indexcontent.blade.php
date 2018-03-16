@@ -8,6 +8,7 @@
             <div class="title-border hidden-xs"></div>
         </div>
     </div>
+    {{--<div class="orangedot"></div>--}}
     {{--PLANE--}}
     {{--<div class="frame">--}}
     {{--<div class="plane-container">--}}

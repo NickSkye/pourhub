@@ -31953,6 +31953,11 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: $('#skills').offset().top - 200 }, 500);
     });
 
+    $(".orangedot").click(function () {
+
+        $('.parazero').animate({ zoom: '100000%' }, "slow");
+    });
+
     $(".contact").click(function () {
 
         $('html, body').animate({ scrollTop: $('#contact').offset().top - 150 }, 500);

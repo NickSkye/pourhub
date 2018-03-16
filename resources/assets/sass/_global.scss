@@ -80,6 +80,38 @@ html {
     width: 101% !important;
 }
 
+.orangedot{
+    //background-color: orangered;
+    width: 1px;
+    height: 1px;
+    opacity: 0.5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 32323;
+    transition: 3s zoom ease-in-out;
+
+    animation:myfirst 0.3s;
+    -moz-animation:myfirst 0.3s infinite; /* Firefox */
+    -webkit-animation:myfirst 0.3s infinite; /* Safari and Chrome */
+}
+
+
+@-moz-keyframes myfirst /* Firefox */
+{
+    0%   {background:red;}
+    50%  {background:orangered;}
+    100%   {background:red;}
+}
+
+@-webkit-keyframes myfirst /* Firefox */
+{
+    0%   {background:red;}
+    50%  {background:orangered;}
+    100%   {background:red;}
+}
+
+
 .page-generic {
 
     .container-fluid {
