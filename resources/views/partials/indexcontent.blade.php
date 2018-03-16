@@ -254,30 +254,32 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
                          data-aos-easing="ease-in-sine">
                 </div>
                 <div class="employee-info" data-aos="fade-up" data-aos-delay="300">
-                    <h2>Skills</h2>
+                    <h2>Dori Mouawad</h2>
+                    <h3>Vice President | Co-founder</h3>
+                    {{--<h2>Skills</h2>--}}
                     {{--line graph with skills--}}
-                    <h5>iOS / Android</h5>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 90%;">
-                            <span class="sr-only">90% Complete</span>
-                        </div>
-                    </div>
-                    <h5>WEB DEVELOPMENT</h5>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 60%;">
-                            <span class="sr-only">60% Complete</span>
-                        </div>
-                    </div>
+                    {{--<h5>iOS / Android</h5>--}}
+                    {{--<div class="progress">--}}
+                        {{--<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"--}}
+                             {{--aria-valuemax="100" style="width: 90%;">--}}
+                            {{--<span class="sr-only">90% Complete</span>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<h5>WEB DEVELOPMENT</h5>--}}
+                    {{--<div class="progress">--}}
+                        {{--<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"--}}
+                             {{--aria-valuemax="100" style="width: 60%;">--}}
+                            {{--<span class="sr-only">60% Complete</span>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
 
-                    <h5>DATABASES</h5>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 80%;">
-                            <span class="sr-only">80% Complete</span>
-                        </div>
-                    </div>
+                    {{--<h5>DATABASES</h5>--}}
+                    {{--<div class="progress">--}}
+                        {{--<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"--}}
+                             {{--aria-valuemax="100" style="width: 80%;">--}}
+                            {{--<span class="sr-only">80% Complete</span>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
 
 
                     <p>Dori Mouawad is a UCI alum with many years of experience in developing mobile
@@ -296,30 +298,32 @@ S20.866,331,46.607,331h668.787C741.133,331,762,307.942,762,279.5S741.133,228,715
                          data-aos-easing="ease-in-sine">
                 </div>
                 <div class="employee-info" data-aos="fade-up" data-aos-delay="300">
-                    <h2>Skills</h2>
+                    <h2>Nicholas Hoyt</h2>
+                    <h3>CEO | Founder</h3>
+                    {{--<h2>Skills</h2>--}}
                     {{--line graph with skills--}}
-                    <h5>iOS / Android</h5>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 80%;">
-                            <span class="sr-only">80% Complete</span>
-                        </div>
-                    </div>
-                    <h5>WEB DEVELOPMENT</h5>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 95%;">
-                            <span class="sr-only">95% Complete</span>
-                        </div>
-                    </div>
+                    {{--<h5>iOS / Android</h5>--}}
+                    {{--<div class="progress">--}}
+                        {{--<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"--}}
+                             {{--aria-valuemax="100" style="width: 80%;">--}}
+                            {{--<span class="sr-only">80% Complete</span>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<h5>WEB DEVELOPMENT</h5>--}}
+                    {{--<div class="progress">--}}
+                        {{--<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"--}}
+                             {{--aria-valuemax="100" style="width: 95%;">--}}
+                            {{--<span class="sr-only">95% Complete</span>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
 
-                    <h5>DATABASES</h5>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 60%;">
-                            <span class="sr-only">60% Complete</span>
-                        </div>
-                    </div>
+                    {{--<h5>DATABASES</h5>--}}
+                    {{--<div class="progress">--}}
+                        {{--<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"--}}
+                             {{--aria-valuemax="100" style="width: 60%;">--}}
+                            {{--<span class="sr-only">60% Complete</span>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
 
                     <p>
                         Nicholas Hoyt is a UCI alum with many years of experience in developing mobile
