@@ -49,8 +49,11 @@ class PagesController extends Controller
         });
         session()->flash('success', 'Successfully sent message!');
 
-        return redirect('/');
+        return redirect()->back()->with('success', true)->with('message','Successfully sent message!');
     }
+
+
+
 
 
 }

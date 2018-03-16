@@ -49,7 +49,12 @@
 {{--</div>--}}
 {{--</iframe>--}}
 {{--</div>--}}
-
+@if(Session::has('success'))
+    <div class="alert alert-success text-center">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <strong>Success!</strong> {{ Session::get('message', '') }}
+    </div>
+@endif
 <div id="servs" class="row crystals">
     <div class="col-sm-12">
         <div class="about__block--container shadowdiv">
