@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="{{ asset('images/skyeMediaIcon 2.png') }}">
+        <link rel="icon" href="{{ asset('images/intelliskyeicon.png') }}">
         <title>IntelliSkye</title>
         <script src="https://use.fontawesome.com/b36c39fbb0.js"></script>
         <!-- Fonts -->
