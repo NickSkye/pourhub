@@ -24,7 +24,7 @@
             <meta name="robots" content="all"/>
             <meta name="robots" content="index, follow"/>
             <meta name="revisit-after" content="4 days"/>
-            <title>Professional Website & App Development | Orange County, CA</title>
+            <title>IntelliSkye | Professional Website & App Development | Orange County, CA</title>
             <meta name="description" content="We at IntelliSkye specialize in App and Website development. We focus on providing innovative services with high performance and low-cost strategies. "/>
             <meta name="keywords" content="web development, website development, app development, web development orange county, web development oc" />
 
