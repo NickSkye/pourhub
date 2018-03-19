@@ -11,6 +11,31 @@
         gtag('config', 'UA-50122846-1');
         </script>
 
+
+
+        <meta name=“description” content=””/>
+        <meta name=“keywords” content=“”/>
+        <meta name="author" content="Intelliskye, LLC"/>
+        <link rel="canonical" href="https://intelliskye.com/"/>
+        <meta name="dc.language" content="en">
+        <meta http-equiv="Content-Language" content="en">
+
+            <link rel="publisher" href="https://intelliskye.com/" />
+            <meta name="robots" content="all"/>
+            <meta name="robots" content="index, follow"/>
+            <meta name="revisit-after" content="4 days"/>
+            <meta name="title" content="Professional Website & App Development | Orange County, CA" />
+            <meta name="description" content="We at IntelliSkye specialize in App and Website development. We focus on providing innovative services with high performance and low-cost strategies. "/>
+            <meta name="keywords" content="web development, website development, app development, web development orange county, web development oc" />
+
+
+
+
+
+
+
+
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -63,7 +63,7 @@
 
                     <h2><br>Web Development</h2>
                     <img src="/images/webdev.png" class="serv-icons" alt="">
-                    <p>IntelliSkye provides end-to-end PHP development solutions catering to client-centric requirements. It can be used to develop API development, Website development, Custom CMS solution, World class web applications and E-commerce solution. We focuses on providing innovative services that encompasses High Performance, High Efficiency and Cost Effective Development Strategy to meet requirements of its clients.</p>
+                    <p>IntelliSkye provides end-to-end PHP development solutions catering to client-centric requirements. It can be used to develop API development, Website development, Custom CMS solution, World class web applications and E-commerce solution. We focus on providing innovative services that encompasses High Performance, High Efficiency and Cost Effective Development Strategy to meet requirements of its clients.</p>
 
                 </div>
                 <div class="content__block col-sm-4 services-blocks text-center" style="border-left: 1px solid black; border-right: 1px solid black;" data-aos="fade-up" data-aos-delay="100">
