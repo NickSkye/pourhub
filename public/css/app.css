@@ -1484,6 +1484,14 @@ header .menu__toggle span.bottom {
   border: 3px solid black;
 }
 
+.instagram {
+  z-index: 555555555;
+  position: absolute;
+  right: 10%;
+  bottom: 25%;
+  color: white;
+}
+
 #empone {
   -webkit-transition: 1s -webkit-transform ease-in-out;
   transition: 1s -webkit-transform ease-in-out;

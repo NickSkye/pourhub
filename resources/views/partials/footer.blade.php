@@ -22,7 +22,7 @@
             <div class="text-center footer-logo animated">
 
 <img src="/images/IntelliSkyeWebsiteDarkBlue.png" class="centered footerlogo" alt="footer logo">
-
+<div class="instagram"><a href="https://www.instagram.com/intelliskye/"><i class="fa fa-4x fa-instagram"></i></a></div>
 </div>
 </div>
 </div>
