@@ -6,7 +6,7 @@
 <div id="myCarousel" class="carousel vertical slide" data-ride="carousel" style="z-index: -1; min-height: 900px;">
 
 
-    <div class="carousel-inner">
+    <div class="carousel-inner circle">
 
         <div class="item active">
             <div class="parallax parazero">

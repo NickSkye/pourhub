@@ -1,0 +1,24 @@
+.loader {
+
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  transition: 1s transform ease-in-out;
+
+  &-left {
+    background: blue;
+
+    &.activated {
+      transform: translateX(-100%);
+    }
+  }
+
+  &-right {
+    right: 0;
+    background: red;
+    &.activated {
+      transform: translateX(100%);
+    }
+
+  }
+}
