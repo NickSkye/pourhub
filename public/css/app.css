@@ -922,8 +922,8 @@ svg {
 }
 
 .circle {
-  -webkit-clip-path: circle(40% at 50% 50%);
-  clip-path: circle(40% at 50% 50%);
+  -webkit-clip-path: circle(30% at 50% 50%);
+  clip-path: circle(30% at 50% 50%);
 }
 
 header {
@@ -1187,102 +1187,12 @@ header .menu__toggle span.bottom {
   }
 }
 
-.carousel-inner .item img {
+.main-scotch {
+  background-image: url("/images/scotch.jpg");
+  min-height: 900px;
   width: 100%;
-}
-
-#whatwedo {
-  -webkit-transition: 1s -webkit-transform ease-in-out;
-  transition: 1s -webkit-transform ease-in-out;
-  transition: 1s transform ease-in-out;
-  transition: 1s transform ease-in-out, 1s -webkit-transform ease-in-out;
-  -webkit-transform: translateX(200%);
-          transform: translateX(200%);
-  width: 100%;
-  z-index: 1004;
-}
-
-#whatwedo.activated {
-  -webkit-transform: translateX(0%);
-          transform: translateX(0%);
-}
-
-#iframe-animation {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 500px;
-}
-
-.pull-out-container {
-  z-index: 300;
-  background-color: black;
-  height: 400px !important;
-  position: absolute;
-}
-
-.pull-out-container p,
-.pull-out-container ul {
-  color: white;
-}
-
-.pull-out-container-inner {
-  z-index: 300;
-  background-color: black;
-  min-height: 400px !important;
-  max-height: 600px;
-  overflow: hidden;
-  position: absolute;
-  -webkit-box-shadow: inset 0px 9px 19px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: inset 0px 9px 19px 0px rgba(0, 0, 0, 0.75);
-}
-
-.pull-out-container-inner p,
-.pull-out-container-inner ul {
-  color: white;
-}
-
-.services-blocks {
-  padding-left: 50px !important;
-  padding-right: 50px !important;
-}
-
-.colored-back {
-  background: white;
-  color: #316980 !important;
-}
-
-.initial-cover {
-  position: absolute !important;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-  -webkit-transition: 1s width ease-in-out;
-  transition: 1s width ease-in-out;
-}
-
-.initial-cover.activated {
-  width: 0;
-}
-
-.progress {
-  height: 16px;
-  margin-bottom: 20px;
-  overflow: hidden;
-  background-color: white;
-  border-radius: 0px;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: 3px solid black;
-}
-
-.instagram {
-  z-index: 555555555;
-  position: absolute;
-  right: 10%;
-  bottom: 25%;
-  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #empone {
@@ -1984,6 +1894,7 @@ h1 .touch {
   transition: 1s -webkit-transform ease-in-out;
   transition: 1s transform ease-in-out;
   transition: 1s transform ease-in-out, 1s -webkit-transform ease-in-out;
+  z-index: 10000;
 }
 
 .loader-left {

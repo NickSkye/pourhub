@@ -15,8 +15,8 @@
 
         <meta name=“description” content=””/>
         <meta name=“keywords” content=“”/>
-        <meta name="author" content="Intelliskye, LLC"/>
-        <link rel="canonical" href="https://intelliskye.com/"/>
+        <meta name="author" content="Intelliskye"/>
+        <link rel="canonical" href="https://pourhub.org/"/>
         <meta name="dc.language" content="en">
         <meta http-equiv="Content-Language" content="en">
 
@@ -24,9 +24,9 @@
             <meta name="robots" content="all"/>
             <meta name="robots" content="index, follow"/>
             <meta name="revisit-after" content="4 days"/>
-            <title>IntelliSkye | Professional Website & App Development | Orange County, CA</title>
-            <meta name="description" content="We at IntelliSkye specialize in App and Website development. We focus on providing innovative services with high performance and low-cost strategies. "/>
-            <meta name="keywords" content="web development, website development, app development, web development orange county, web development oc" />
+            <title>Pourhub</title>
+            <meta name="description" content="Scotch & Stuff "/>
+            <meta name="keywords" content="Scotch, Notes" />
 
 
 
@@ -69,7 +69,7 @@
     @endif
 
     <body >
-    @include('partials.home-header')
+    {{--@include('partials.home-header')--}}
         @yield('content')
         <footer> @include('partials.footer')</footer>
     </body>

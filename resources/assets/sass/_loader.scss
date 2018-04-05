@@ -4,6 +4,7 @@
   height: 100%;
   position: absolute;
   transition: 1s transform ease-in-out;
+  z-index: 10000;
 
   &-left {
     background: blue;
